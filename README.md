@@ -42,7 +42,7 @@ The `kss datasets` directory should look like:
 	
 ### 2-2. Prepare train datasets
 
-Modify KSS datasets path in prepare.py
+Modify KSS datasets path in ./datasets/kss/prepare.py
 
     dataset_dir = "$(kss_data_path)"
 
