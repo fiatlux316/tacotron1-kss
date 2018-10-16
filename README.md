@@ -112,17 +112,17 @@ To restart a training from previous experiments such as `logs/kss_2018-08-28_23-
 
 ### 4. Synthesize audio
 
-You can train your own models with:
+You can synthesize audio with:
 
     python synthesizer.py --load_path=logs/kss_2018-08-28_23-46-20 --text "용돈을 아껴 씁시다." --is_korean=True
 	
 	
 ### 5. Realtime Audio synthesize
 
-You can train your own models with:
+You can synthesize audio real-time with:
 
     python app.py --load_path='logs/kss_2018-08-28_23-46-20' --is_korean=True	
-
+    Connect http://(hostname or ip):51000
 
 ## References
 
