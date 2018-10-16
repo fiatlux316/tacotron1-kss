@@ -27,6 +27,7 @@ After preparing [Tensorflow](https://www.tensorflow.org/install/), install prere
 ### 2-1. Download KSS datasets
 
 The `kss datasets` directory should look like:
+
 (Download link : https://drive.google.com/open?id=166Gjf1BBCjFFSAGRCmnPIXIWCwWJ5Q6u)
 
     $(kss_data_path)
