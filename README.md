@@ -126,5 +126,5 @@ You can train your own models with:
 
 ## References
 
-- [Keith Ito](https://github.com/keithito)'s [tacotron](https://github.com/keithito/tacotron)
-- [DEVIEW 2017 presentation](https://www.slideshare.net/carpedm20/deview-2017-80824162)
+- [Keith Itos tacotron](https://github.com/keithito/tacotron)
+- [multi-Speaker-tacotron-tensorflow](https://github.com/carpedm20/multi-Speaker-tacotron-tensorflow)
