@@ -42,6 +42,12 @@ The `kss datasets` directory should look like:
 	
 ### 2-2. Prepare train datasets
 
+Modify KSS datasets path in prepare.py
+
+    dataset_dir = "$(kss_data_path)"
+
+You can generate alignment json file with :
+
     python -m datasets.kss.prepare 
 
 The `datasets` directory should look like:
