@@ -114,7 +114,7 @@ To restart a training from previous experiments such as `logs/kss_2018-08-28_23-
 
 You can train your own models with:
 
-    python synthesizer.py --load_path=logs/kss_2018-08-28_23-46-20 --text "이거 실화냐?" --is_korean=True
+    python synthesizer.py --load_path=logs/kss_2018-08-28_23-46-20 --text "용돈을 아껴 씁시다." --is_korean=True
 	
 	
 ### 5. Realtime Audio synthesize
