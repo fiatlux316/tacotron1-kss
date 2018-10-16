@@ -28,17 +28,17 @@ After preparing [Tensorflow](https://www.tensorflow.org/install/), install prere
 
 The `kss datasets` directory should look like:
 
-  $(kss_data_path)
-      ├── metadata.csv
-      ├── transcript.txt
-      └── 1
-          ├── 1_0000.wav
-          ├── 1_0001.wav
-          ├── 1_0002.wav
-          └── ...
-      ├── 2
-      ├── 3
-      └── 4
+    $(kss_data_path)
+        ├── metadata.csv
+        ├── transcript.txt
+        └── 1
+            ├── 1_0000.wav
+            ├── 1_0001.wav
+            ├── 1_0002.wav
+            └── ...
+        ├── 2
+        ├── 3
+        └── 4
 	
 ### 2-2. Prepare train datasets
 
@@ -106,12 +106,14 @@ To restart a training from previous experiments such as `logs/kss_2018-08-28_23-
 ### 4. Synthesize audio
 
 You can train your own models with:
+
     python synthesizer.py --load_path=logs/kss_2018-08-28_23-46-20 --text "이거 실화냐?" --is_korean=True
 	
 	
 ### 5. Realtime Audio synthesize
 
 You can train your own models with:
+
     python app.py --load_path='logs/kss_2018-08-28_23-46-20' --is_korean=True	
 
 
