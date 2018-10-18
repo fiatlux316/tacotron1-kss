@@ -28,7 +28,7 @@ After preparing [Tensorflow](https://www.tensorflow.org/install/), install prere
 
 The `kss datasets` directory should look like:
 
-(Download link : https://drive.google.com/open?id=166Gjf1BBCjFFSAGRCmnPIXIWCwWJ5Q6u)
+ - [kaggle download link](https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset)
 
     $(kss_data_path)
         ├── metadata.csv
